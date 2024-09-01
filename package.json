@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Managing Crud operations on books collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "bilal98",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  }
+}
